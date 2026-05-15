@@ -1,6 +1,6 @@
 import { AppState, User, Message, Shift, LeaveRequest, Branch, BranchId } from '../types';
 import { v4 as uuidv4 } from 'uuid';
-import { format, addDays, startOfWeek, endOfWeek, eachDayOfInterval } from 'date-fns';
+import { format, startOfWeek, endOfWeek, eachDayOfInterval } from 'date-fns';
 
 const STORAGE_KEY = 'restohr_state_v1';
 
