@@ -47,7 +47,7 @@ export default function ChatHub({ branchId, groupId, userRole }: ChatHubProps) {
     setInput('');
   };
 
-  const handleFlag = (msgId: string) => {
+  const handleFlag = (_msgId: string) => {
     alert(`Issue flagged. HR & Owners have been notified.`);
   };
 

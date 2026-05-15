@@ -1,6 +1,6 @@
 import { ReactNode, useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Bell, Settings, LogOut, MessageSquare, Calendar, Users, Home, BookOpen, Award, Heart, Shield } from 'lucide-react';
+import { Menu, X, Bell, Settings, LogOut, MessageSquare, Calendar, Users, Home, BookOpen, Award,  Shield } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { storage } from '../utils/storage';
 import TopBanner from './TopBanner';

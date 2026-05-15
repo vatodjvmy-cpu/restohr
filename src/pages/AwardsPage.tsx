@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Trophy, Heart, Star, Award as AwardIcon, Calendar } from 'lucide-react';
+import { Trophy, Heart, Star, Calendar } from 'lucide-react';
 import Layout from '../components/Layout';
 import { storage } from '../utils/storage';
 import { format } from 'date-fns';
